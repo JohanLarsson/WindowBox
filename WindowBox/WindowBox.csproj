@@ -61,6 +61,9 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Device.cs" />
+    <Compile Include="DeviceVm.cs" />
+    <Compile Include="HtmlPacket.cs" />
     <Compile Include="SpexialWindow.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

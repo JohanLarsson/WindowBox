@@ -2,7 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:local="clr-namespace:WindowBox">
     <Style TargetType="{x:Type local:SpexialWindow}">
-        <Setter Property="Background" Value="Olive" />
+        <Setter Property="Background" Value="White" />
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type local:SpexialWindow}">
@@ -11,7 +11,7 @@
                             BorderThickness="{TemplateBinding BorderThickness}">
                         <Grid>
                             <Grid.RowDefinitions>
-                                <RowDefinition />
+                                <RowDefinition Height="Auto"/>
                                 <RowDefinition />
                             </Grid.RowDefinitions>
                             <TextBlock HorizontalAlignment="Center"
